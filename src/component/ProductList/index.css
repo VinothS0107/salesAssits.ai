@@ -1,0 +1,40 @@
+.product-list-container {
+    padding: 32px;
+}
+
+.product-categories-tag-container,
+.product-categories-tag-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.product-categories-tag-title span {
+    font-family: Encode Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #E5DFD9;
+    ;
+}
+
+.product-categories-tag-title span:nth-child(2) {
+    margin: 0px 8px;
+}
+
+.product-categories-tag-info p {
+    font-family: Encode Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #E5DFD9;
+    margin-right: 14px;
+}
+.produts-section {
+    padding-top: 40px;
+}

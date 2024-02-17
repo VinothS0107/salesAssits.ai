@@ -1,0 +1,75 @@
+.cards-conatiner {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    column-gap: 32px;
+    row-gap: 40px;
+}
+
+.card-container {
+    position: relative;
+}
+
+.card-image-container {
+    width: 100%;
+    height: 373px;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.card-image-container img {
+    border-radius: 7px 7px 0px 0px;
+}
+
+.bookmark-flag {
+    position: absolute;
+    top: 17px;
+    right: 17px;
+    z-index: 10;
+    width: 26px;
+    height: 34px;
+    /* background-color:#E5DFD9 ; */
+}
+
+.card-details-container {
+    padding: 13px 10px 24px 10px;
+    background-color: #141414;
+    border-radius: 0px 0px 7px 7px;
+
+}
+
+.card-title {
+    font-family: Encode Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    margin-bottom: 16px;
+    color: #E5DFD9;
+
+    /* line-clamp: 1 */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+.card-price-details-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-price {
+    font-family: Encode Sans;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: #E5DFD9;
+}
+
+.AddToCart {
+    width: 36;
+    height: 44px;
+}
