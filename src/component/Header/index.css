@@ -4,7 +4,7 @@
     position: sticky;
     top: 0;
     background-color:#0C0C0C ;
-    z-index: 999;
+    z-index: 1;
 }
 
 .header-title-icon-container {
@@ -30,6 +30,7 @@
     justify-content: space-between;
     align-items: center;
     column-gap: 20px;
+    overflow: hidden;
 }
 
 .icon-frame {
@@ -62,5 +63,6 @@
     letter-spacing: 0.1em;
     text-align: left;
     list-style-type: none;
+    overflow: hidden;
 
 }
