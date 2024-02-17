@@ -25,41 +25,38 @@ const MenuNavBar = () => {
         menuTitle:'Messenger Bags'
     },{
         id:6,
-        menuImgUrl :'./assets/MessengerBags.svg',
-        menuTitle:'Messenger Bags'
-    },{
-        id:7,
         menuImgUrl :'./assets/SlingBags.svg',
         menuTitle:'Sling Bags'
     },{
-        id:8,
+        id:7,
         menuImgUrl :'./assets/ToteBag.svg',
         menuTitle:'Tote Bag'
     },{
-        id:9,
+        id:8,
         menuImgUrl :'./assets/VanityPouch.svg',
         menuTitle:'Vanity Pouch'
     },{
-        id:10,
+        id:9,
         menuImgUrl :'./assets/AllBags.svg',
         menuTitle:'All Bags'
     },{
-        id:11,
+        id:10,
         menuImgUrl :'./assets/DuffleBag.svg',
         menuTitle:'Duffle Bag'
     },{
-        id:12,
+        id:11,
         menuImgUrl :'./assets/HandBags.svg',
         menuTitle:'Hand Bags'
     },{
-        id:13,
+        id:12,
         menuImgUrl :'./assets/LaptopSleeve.svg',
         menuTitle:'Laptop Sleeve'
     },{
-        id:14,
+        id:13,
         menuImgUrl :'./assets/MessengerBags.svg',
         menuTitle:'Messenger Bags'
-    }
+    },
+    
 ]
   return (
    <nav className='menu-nav-bar-container'>

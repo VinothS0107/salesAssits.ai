@@ -39,8 +39,9 @@
 
 .icon-frame .icon {
     color: #E5DFD9;
-    width: 24px;
-    height: 24px;
+    width: 18px;
+    height: 18px;
+    font-weight: 400;
 }
 
 .header-menu-items-container {
