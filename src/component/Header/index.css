@@ -1,10 +1,16 @@
 .header-container {
-    padding: 19px 26px 18px 50px;
+    padding: 19px 26px 18px 25px;
     width: inherit;
     position: sticky;
     top: 0;
     background-color:#0C0C0C ;
     z-index: 1;
+}
+@media screen and (min-width:640px) {
+    .header-container {
+        padding: 19px 26px 18px 50px;
+       
+    }  
 }
 
 .header-title-icon-container {
@@ -19,9 +25,15 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
-    letter-spacing: 0.55em;
+    letter-spacing: 0.3em;
     color: #E5DFD9;
     white-space: nowrap;
+}
+
+@media screen and (min-width:640px) {
+    .title {
+        letter-spacing: 0.55em;
+    }
 }
 
 .header-icon-container {
